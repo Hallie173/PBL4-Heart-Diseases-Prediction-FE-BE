@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+    --color1: #D4343F;
+    --color2: #F3505A;
+    --color3: #ECEBEA;
+    --color4: #085979;
+    --color5: #008EA0;
+    --color6: #64BABE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 100%; */
+    font-family: "Montserrat", sans-serif;
+}
+
+.managementContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px;
+}
+
+.accountManage {
+    width: 25%;
+    padding: 15px;
+    border: 1px solid var(--color4);
+}
+
+.showAvatar {
+    width: 45%;
+    margin: 10px auto;
+    border: 3px solid var(--color5);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.showAvatar img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.showInfo {
+    margin-top: 20px;
+}
+
+.showInfo p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.showInfo .left {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.showInfo .right {
+    color: var(--color4);
+    font-weight: bold;
+}
+
+.changeInfo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.changeInfo .changeButton {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--color1);
+}
+
+.rolesManage {
+    width: 74%;
+}
+
+.navTabs {
+    border: 1px solid var(--color4);
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+}
+
+.navItem {
+    padding: 0;
+    margin: 0;
+}
+
+.manageItem {
+    display: block;
+    text-decoration: none;
+    color: var(--color4);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 10px 15px;
+}
+
+.manageItem:hover {
+    background: var(--color3);
+    color: var(--color4);
+}
+
+.manageItem.active {
+    background: var(--color5);
+    color: white;
+}
+
+.tabContent {
+    border: 1px solid var(--color4);
+    border-top: none;
+    padding: 10px 20px;
+}

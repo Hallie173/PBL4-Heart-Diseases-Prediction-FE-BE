@@ -1,0 +1,89 @@
+:root {
+    --color1: #D4343F;
+    --color2: #F3505A;
+    --color3: #ECEBEA;
+    --color4: #085979;
+    --color5: #008EA0;
+    --color6: #64BABE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.homepage {
+    min-height: 100vh;
+}
+
+.heartrate {
+    margin: 20px;
+    border: 1px solid var(--color4);
+    padding: 20px;
+}
+
+.your-heartrate {
+    text-align: center;
+    margin: 10px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--color1);
+}
+
+.diagnosis {
+    padding: 10px 50px 30px 50px;
+    text-align: left;
+}
+
+.diagnosis .content-name {
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.diagnosis .diagnosis-content {
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.show-history {
+    background: var(--color1);
+    padding: 10px 25px;
+    font-size: 18px;
+    box-shadow: 3px 3px var(--color2);
+    border-radius: 10px;
+    margin: 30px 0 30px 100px;
+    border: 0.5px solid white;
+}
+
+.show-history button {
+    color: white;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.prepare-for-measure {
+    background: #198754;
+    padding: 10px 25px;
+    font-size: 18px;
+    box-shadow: 3px 3px #1fa667;
+    border-radius: 10px;
+    margin: 30px 100px 30px 0;
+    border: 0.5px solid white;
+}
+
+.prepare-for-measure button {
+    color: white;
+    border: none;
+    outline: none;
+    background: transparent;
+}

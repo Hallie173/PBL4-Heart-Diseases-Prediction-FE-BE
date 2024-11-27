@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+    --color1: #D4343F;
+    --color2: #F3505A;
+    --color3: #ECEBEA;
+    --color4: #085979;
+    --color5: #008EA0;
+    --color6: #64BABE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 100%; */
+    font-family: "Montserrat", sans-serif;
+}
+
+.group-roles {
+    width: 100%;
+}
+
+.select-div {
+    border-bottom: 1px solid var(--color4);
+    margin-bottom: 20px;
+}
+
+.select-title {
+    color: var(--color4);
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+}
+
+.select-group {
+    width: 50%;
+    padding: 10px 5px;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+}
+
+.select-group:focus {
+    border: 1px solid var(--color3);
+}
+
+.assign-roles {
+    display: flex;
+    flex-direction: column;
+}
+
+.assign-roles-title {
+    color: var(--color4);
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+    margin: 10px 15px 10px 20px;
+}
+
+.save-roles-list {
+    background: var(--color1);
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 3px 3px var(--color2);
+    border: 0.5px solid white;
+    color: white;
+    width: 80px;
+}

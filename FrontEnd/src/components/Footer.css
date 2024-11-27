@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color1: #D4343F;
+    --color2: #F3505A;
+    --color3: #ECEBEA;
+    --color4: #085979;
+    --color5: #008EA0;
+    --color6: #64BABE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer {
+    position: relative;
+    background: var(--color3);
+}
+
+.footer-title {
+    font-size: 30px;
+    padding: 20px 50px;
+    color: var(--color3);
+    background: var(--color4);
+}
+
+.brand-name {
+    color: white;
+    font-weight: bold;
+}
+
+.all-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 20px solid var(--color4);
+    border-top: 0;
+}
+
+.left-info,
+.center-info,
+.right-info {
+    padding: 20px 10px 15px 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.left-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+.center-info {
+    width: 35%;
+}
+
+.right-info {
+    width: 25%;
+}
+
+.info-title {
+    font-size: 20px;
+    color: var(--color1);
+    font-weight: bold;
+}
+
+.terms div p,
+.services div p,
+.contact div p,
+.times div p {
+    margin-top: 10px;
+    color: var(--color4);
+}
+
+.contact div p,
+.times div p {
+    display: flex;
+    align-items: center;
+}
+
+.contact p .icon,
+.times div p .icon {
+    margin-right: 12px;
+}
+
+a {
+    color: var(--color4);
+    text-decoration: none;
+}
+
+.center-info {
+    width: 30%;
+}
+
+.right-info {
+    width: auto;
+}

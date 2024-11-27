@@ -1,0 +1,41 @@
+.wrapper {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(../../../public/img/bg-login-img.jpg) !important;
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+
+  .card-body {
+    max-height: 80%;
+
+    h3 {
+      font-size: 2.5rem;
+      color: #000 !important;
+    }
+
+    .text-center {
+      display: flex;
+      justify-content: center;
+    }
+
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 0;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
